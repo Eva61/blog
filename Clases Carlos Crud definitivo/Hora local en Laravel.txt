@@ -1,0 +1,34 @@
+Dentro de la carpeta config/app.php en la linea 68 encotramos el
+timezone es aqui donde colocamos nuestra zona horario 'America/Caracas'
+y al crear una migracion se reflejara la hora que tiene nuestro equipo
+en el archivo creado.
+
+
+
+    'url' => env('APP_URL', 'http://localhost'),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Application Timezone
+    |--------------------------------------------------------------------------
+    |
+    | Here you may specify the default timezone for your application, which
+    | will be used by the PHP date and date-time functions. We have gone
+    | ahead and set this to a sensible default for you out of the box.
+    |
+    */
+
+    'timezone' => 'America/Caracas',
+
+    /*
+    |--------------------------------------------------------------------------
+    | Application Locale Configuration
+    |--------------------------------------------------------------------------
+    |
+    | La configuración regional de la aplicación determina la configuración regional predeterminada que se usará
+    | por el proveedor de servicios de traducción. Usted es libre de establecer este valor
+    | a cualquiera de las configuraciones regionales que serán compatibles con la aplicación.  
+    |
+    */
+
+    'locale' => 'es',
